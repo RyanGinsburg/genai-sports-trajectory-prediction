@@ -1,0 +1,25 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Data: everything under data/ stays local except its README.
+# Raw datasets are large and separately licensed; see data/README.md.
+data/*
+!data/README.md
+
+# Dataset archives and generated data files, wherever they end up
+*.zip
+*.bz2
+*.parquet
+*.npy
+*.npz
